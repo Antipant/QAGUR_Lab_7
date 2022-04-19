@@ -23,7 +23,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class SelenideDownloadTest {
     ClassLoader cl = SelenideDownloadTest.class.getClassLoader();
 
-
     @Test
     void downloadTest() throws Exception {
         Selenide.open("https://github.com/junit-team/junit5/blob/main/README.md");
